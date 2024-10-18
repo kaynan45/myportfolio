@@ -1,0 +1,43 @@
+.presentation {
+  margin-top: 9em;
+  /* border: solid ; */
+  padding: 0 22em;
+}
+
+.presentation h1 {
+  font-size: 3.3em;
+  font-weight: 500;
+}
+
+.myNameIs {
+  color: #afdde5;
+}
+
+.whatAmI {
+  color: #0fa4af;
+}
+
+.name {
+  color:#964734 ;
+  font-weight: bold;
+}
+
+.description {
+  color: #afdde5ca;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    padding: 0 5vw;
+    margin-top: 4em;
+  }
+
+  .presentation h1 {
+    font-size: 2.5em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}
