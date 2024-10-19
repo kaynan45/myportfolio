@@ -35,6 +35,26 @@
   align-items: center;
 }
 
+.letsConnectContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.clickMe {
+  font-size: 1.1em;
+  margin-left: 10px;
+  rotate: 18deg;
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+}
+
+.arrow {
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: -20px;
+}
+
 .letsConnect {
   background-color:#0fa4af ;
   margin-top: 2em;

@@ -2,8 +2,6 @@ import { PiArrowBendDownLeftThin } from "react-icons/pi";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 
-// I've built dynamic, user-friendly applications like the Aluguel Marina Da Glória website. I'm eager to tackle new challenges and grow in the tech industry.
-
 function Home() {
   return (
     <div>
@@ -20,12 +18,20 @@ function Home() {
         </h3>
       </div>
       <div className={styles.connect}>
-        <Link
-          to="https://www.linkedin.com/in/lorenzo-xavier-9317432ba/"
-          target="_blank"
-        >
-          <button className={styles.letsConnect}>Let's connect!</button>
-        </Link>
+        <div className={styles.letsConnectContainer}>
+          <Link
+            to="https://www.linkedin.com/in/lorenzo-xavier-9317432ba/"
+            target="_blank"
+          >
+            <button className={styles.letsConnect}>Let's connect!</button>
+          </Link>
+          <div>
+            <p className={styles.clickMe}>Click Me!</p>
+            <span className={styles.arrow}>
+              <PiArrowBendDownLeftThin />
+            </span>
+          </div>
+        </div>
         <button className={styles.contactMe}>Contact Me</button>
       </div>
     </div>
