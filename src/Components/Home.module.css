@@ -1,7 +1,18 @@
+body {
+  background-color: var(--primary-color);
+}
+
 .presentation {
   margin-top: 9em;
-  /* border: solid ; */
   padding: 0 22em;
+}
+
+[data-theme="light"] {
+  --primary-color: #f5f5f5;
+  --dark-color: #e1e1e1;
+  --detail: #ff9f1a;
+  --contrast: #26a69a;
+  --light-color: #333333;
 }
 
 .presentation h1 {
@@ -10,20 +21,20 @@
 }
 
 .myNameIs {
-  color: #afdde5;
+  color: var(--light-color)
 }
 
 .whatAmI {
-  color: #0fa4af;
+  color: var(--contrast);
 }
 
 .name {
-  color: #fd971f;
+  color: var(--detail);
   font-weight: bold;
 }
 
 .description {
-  color: #afdde5ca;
+  color: var(--light-color);
   margin-top: 1.5em;
 }
 
@@ -56,7 +67,7 @@
 }
 
 .letsConnect {
-  background-color:#0fa4af ;
+  background-color: var(--contrast);
   margin-top: 2em;
   border: none;
   padding: 10px 40px;
@@ -65,7 +76,7 @@
   color: #003135;
   font-size: 15px;
   font-weight: bold;
-  transition: ease .5s;
+  transition: ease 0.5s;
 }
 
 .letsConnect:hover {
@@ -76,7 +87,7 @@
 .contactMe {
   border: none;
   background-color: transparent;
-  color: #afdde5;
+  color: var(--light-color);
   font-size: 15px;
   font-weight: bold;
 }

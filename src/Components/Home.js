@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
+    <div data-theme="dark">
       <div className={styles.presentation}>
         <h1 className={styles.myNameIs}>
           Hi, my name is <span className={styles.name}>Kaynan.</span>
