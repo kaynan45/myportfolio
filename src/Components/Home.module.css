@@ -18,7 +18,7 @@
 }
 
 .name {
-  color:#964734 ;
+  color: #fd971f;
   font-weight: bold;
 }
 
@@ -27,6 +27,44 @@
   margin-top: 1.5em;
 }
 
+.connect {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.letsConnect {
+  background-color:#0fa4af ;
+  margin-top: 2em;
+  border: none;
+  padding: 10px 40px;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  color: #003135;
+  font-size: 15px;
+  font-weight: bold;
+  transition: ease .5s;
+}
+
+.letsConnect:hover {
+  cursor: pointer;
+  background-color: #2ac8d3;
+}
+
+.contactMe {
+  border: none;
+  background-color: transparent;
+  color: #afdde5;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contactMe:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   .presentation {
     padding: 0 5vw;
