@@ -16,6 +16,14 @@ body {
   --light-color: #afdde5;
 }
 
+[data-theme="light"] {
+  --primary-color: #f5f5f5;
+  --dark-color: #e1e1e1;
+  --detail: #ff9f1a;
+  --contrast: #26a69a;
+  --light-color: #333333;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

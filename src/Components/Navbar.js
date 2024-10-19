@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
-import { MdModeNight } from "react-icons/md";
+import ThemeButton from '../Layout/ThemeButton'
 
 function Navbar() {
+
   return (
     <nav>
       <div className={styles.navbar}>
         <div>
-          <img
-            className={styles.image}
-            src="https://cdn-icons-png.freepik.com/512/10329/10329496.png"
-          ></img>
+          <p>Kaynan</p>
         </div>
         <ul>
           <li>
@@ -29,9 +27,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <button className={styles.dark_light_mode}>
-              <MdModeNight />
-            </button>
+            <ThemeButton/>
           </li>
         </ul>
       </div>

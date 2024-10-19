@@ -1,0 +1,16 @@
+.dark_light_mode {
+  border-style: none;
+  border-radius: 5px;
+  width: 3.4em;
+  padding: 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-color);
+}
+
+.dark_light_mode svg {
+  color: var(--contrast);
+  font-size: large;
+}
