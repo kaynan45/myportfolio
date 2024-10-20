@@ -1,0 +1,42 @@
+.aboutContainer {
+  margin: 0 auto;
+  padding: 50px 20px;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 3em;
+  /* border: solid; */
+}
+
+.aboutHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Adds space between the number and title */
+}
+
+.aboutNumber {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--contrast); /* Choose a color that pops */
+}
+
+.aboutTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--light-color); /* Match the title with a standout color */
+}
+
+.aboutDivider {
+  flex-grow: 1;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  margin-left: 20px;
+  width: 30%; /* Adjust width for a better fit */
+}
+
+.aboutDescription {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: var(--light-color);
+}
