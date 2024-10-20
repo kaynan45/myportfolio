@@ -2,94 +2,8 @@ body {
   background-color: var(--primary-color);
 }
 
-.presentation {
-  margin-top: 9em;
-  padding: 0 22em;
-}
 
-.presentation h1 {
-  font-size: 3.3em;
-  font-weight: 500;
-}
-
-.myNameIs {
-  color: var(--light-color);
-}
-
-.whatAmI {
-  color: var(--contrast);
-}
-
-.name {
-  color: var(--detail);
-  font-weight: bold;
-}
-
-.description {
-  color: var(--light-color);
-  margin-top: 1.5em;
-}
-
-.connect {
-  margin-top: 3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.letsConnectContainer {
-  display: flex;
-  align-items: center;
-  margin-left: 80px;
-}
-
-.clickMe {
-  font-size: 1.1em;
-  margin-left: 10px;
-  rotate: 18deg;
-  color: var(--light-color);
-  font-family: "Dancing Script", cursive;
-}
-
-.arrow {
-  font-size: 2em;
-  color: var(--light-color);
-  margin-left: -20px;
-}
-
-.letsConnect {
-  background-color: var(--contrast);
-  margin-top: 2em;
-  border: none;
-  padding: 10px 40px;
-  margin-bottom: 1em;
-  border-radius: 20px;
-  color: #003135;
-  font-size: 15px;
-  font-weight: bold;
-  transition: ease 0.5s;
-  text-decoration: none;
-}
-
-.letsConnect:hover {
-  cursor: pointer;
-  background-color: #2ac8d3;
-}
-
-.contactMe {
-  border: none;
-  background-color: transparent;
-  color: var(--light-color);
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.contactMe:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .presentation {
     padding: 0 5vw;
     margin-top: 4em;
@@ -102,4 +16,4 @@ body {
   .description {
     font-size: 1em;
   }
-}
+} */

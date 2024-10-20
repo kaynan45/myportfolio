@@ -1,0 +1,27 @@
+.presentation {
+  margin-top: 9em;
+  padding: 0 22em;
+}
+
+.presentation h1 {
+  font-size: 3.3em;
+  font-weight: 500;
+}
+
+.myNameIs {
+  color: var(--light-color);
+}
+
+.whatAmI {
+  color: var(--contrast);
+}
+
+.name {
+  color: var(--detail);
+  font-weight: bold;
+}
+
+.description {
+  color: var(--light-color);
+  margin-top: 1.5em;
+}
