@@ -12,6 +12,10 @@
   margin-right: 2em;
 }
 
+.logo {
+  color: var(--contrast);
+}
+
 .navbar ul li {
   text-decoration: none;
   list-style: none;

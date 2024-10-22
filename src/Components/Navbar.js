@@ -8,7 +8,7 @@ function Navbar() {
     <nav>
       <div className={styles.navbar}>
         <div>
-          <p>Kaynan</p>
+          <p className={styles.logo}>Kaynan</p>
         </div>
         <ul>
           <li>
