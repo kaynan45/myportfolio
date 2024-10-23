@@ -1,8 +1,8 @@
 import styles from "./Home.module.css";
-import Presentation from "../Layout/Presentation";
-import Connect from "../Layout/Connect";
-import About from "../Layout/About";
-import Experiences from "../Layout/Experiences";
+import Presentation from "../Components/Layout/Presentation";
+import Connect from "../Components/Layout/Connect";
+import About from "../Components/Layout/About";
+import Experiences from "../Components/Layout/Experiences";
 
 function Home() {
   return (

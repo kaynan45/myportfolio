@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Experiences.module.css";
-
+import ExperienceCards from "../Utils/ExperienceCards"
 function Experiences() {
   const [selectedButton, setSelectedButton] = useState("frontend");
 
@@ -33,6 +33,7 @@ function Experiences() {
           Front-End
         </button>
       </div>
+      <ExperienceCards selectedButton={selectedButton}/>
     </section>
   );
 }

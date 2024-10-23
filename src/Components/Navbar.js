@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
-import ThemeButton from '../Layout/ThemeButton'
+import ThemeButton from './Layout/ThemeButton'
 
 function Navbar() {
 
@@ -27,7 +27,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <ThemeButton/>
+            <ThemeButton />
           </li>
         </ul>
       </div>
