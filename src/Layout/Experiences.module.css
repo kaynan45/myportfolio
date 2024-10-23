@@ -38,7 +38,18 @@
   font-weight: bold;
   padding: 8px 15px;
   background-color: var(--primary-color);
-  border: solid 1px var(--contrast);
+  border: solid 1px var(--light-color);
   color: var(--light-color);
-  /* box-shadow: 0 3px 3px 0 var(--contrast); */
+  transition: ease .2s;
+}
+
+.experienceButton:hover {
+  cursor: pointer;
+  background-color: var(--button-hover);
+}
+
+.active {
+  box-shadow: 0 2px 3px 0 var(--contrast);
+  border: solid 1px var(--contrast);
+  transform: scale(1.1);
 }
