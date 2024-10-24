@@ -13,11 +13,11 @@ function Experiences() {
       </div>
       <div className={styles.buttons}>
         <button
-          className={`${styles.experienceButton} ${
+          className={`${styles.experienceButton} ${ //Here what I'm doing is basically creating a dynamic class by attaching the default style and the second style is added based on ternary condition.
             selectedButton === "fullstack" ? styles.active : ""
           }`}
           onClick={() => {
-            setSelectedButton("fullstack");
+            setSelectedButton("fullstack"); //And to satisfy the condition when the button is clicked it's value is stored on the 'selectedButton' variable.
           }}
         >
           Full-Stack

@@ -11,14 +11,20 @@
 }
 
 .experienceCard:hover {
-  transform: scale(1.05); /* Slight grow effect on hover */
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cardHeader {
   display: flex;
   align-items: center;
   margin-bottom: 1em;
+}
+
+.cardHeader svg  {
+  font-size: 3em;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
 .companyLogo {
@@ -31,26 +37,5 @@
 .cardHeader h3 {
   font-size: 1.5rem;
   margin: 0;
-  color: var(--primary-color); /* Adjust based on your color scheme */
-}
-
-.cardHeader p {
-  font-size: 1rem;
-  margin: 0;
-  color: var(--secondary-color); /* Adjust based on your color scheme */
-}
-
-.cardBody ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  color: var(--dark-color); /* Text color for readability */
-}
-
-.cardBody li {
-  margin-bottom: 0.5em;
-  line-height: 1.6;
-}
-
-.experienceCard span {
-  color: var(--light-color);
+  color: var(--primary-color);
 }
