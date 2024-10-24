@@ -9,6 +9,7 @@ body {
 }
 
 :root {
+  --background-color: radial-gradient(circle, rgb(40, 0, 115) 0%, rgba(2,73,80,1) 100%);
   --primary-color: #024950;
   --dark-color: #003135;
   --detail: #fd971f;
