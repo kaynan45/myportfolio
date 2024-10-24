@@ -1,5 +1,6 @@
-import { MdWeb } from "react-icons/md";
 import styles from "./ExperienceCards.module.css";
+import Lottie from "lottie-react";
+import configurationAnimation from "../../assets/Animation - 1729812166525.json";
 
 function ExperienceCards({ selectedButton }) {
   return (
@@ -7,7 +8,7 @@ function ExperienceCards({ selectedButton }) {
       {selectedButton === "fullstack" ? (
         <div className={styles.experienceCard}>
           <div className={styles.cardHeader}>
-            <MdWeb />
+            <Lottie animationData={configurationAnimation} />
             <div>
               <h3>Selecty - Online Recruitment</h3>
               <p>Full-Stack Developer</p>
@@ -18,7 +19,7 @@ function ExperienceCards({ selectedButton }) {
       ) : (
         <div className={styles.experienceCard}>
           <div className={styles.cardHeader}>
-            <MdWeb />
+            <Lottie animationData={configurationAnimation} />
             <div>
               <h3>Marina da Glória</h3>
               <p>Front-End Developer</p>
