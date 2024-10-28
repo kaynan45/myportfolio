@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./Experiences.module.css";
 import ExperienceCards from "../Utils/ExperienceCards"
 function Experiences() {
-  const [selectedButton, setSelectedButton] = useState("frontend");
+  const [selectedButton, setSelectedButton] = useState("fullstack");
 
   return (
     <section className={styles.aboutContainer}>

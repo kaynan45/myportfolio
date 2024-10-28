@@ -8,19 +8,24 @@ function ExperienceCards({ selectedButton }) {
       {selectedButton === "fullstack" ? (
         <div className={styles.experienceCard}>
           <div className={styles.cardHeader}>
-            <Lottie animationData={configurationAnimation} />
-            <div>
+            <span>
+              <Lottie animationData={configurationAnimation} />
+            </span>
+            <div className={styles.writingSection}>
               <h3>Selecty - Online Recruitment</h3>
               <p>Full-Stack Developer</p>
             </div>
           </div>
+          <img src="https://picsum.photos/300/200" alt="Placeholder" />
           <div className={styles.cardBody}></div>
         </div>
       ) : (
         <div className={styles.experienceCard}>
           <div className={styles.cardHeader}>
-            <Lottie animationData={configurationAnimation} />
-            <div>
+            <span>
+              <Lottie animationData={configurationAnimation} />
+            </span>
+            <div className={styles.writingSection}>
               <h3>Marina da Glória</h3>
               <p>Front-End Developer</p>
             </div>

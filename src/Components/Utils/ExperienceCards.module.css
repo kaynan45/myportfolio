@@ -1,11 +1,11 @@
 .experienceCard {
   display: flex;
-  flex-direction: column;
-  border: 1px solid var(--light-color);
+  /* flex-direction: column; */
+  border: 1px solid;
   border-radius: 20px;
   margin-top: 2em;
-  padding: 20px;
-  background-color: #fff; /* Light background for better readability */
+  padding: 15px 10px;
+  background-color: var(--light-color);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
@@ -17,25 +17,27 @@
 
 .cardHeader {
   display: flex;
+  justify-content: left;
   align-items: center;
   margin-bottom: 1em;
+  /* border: solid 1px red; */
 }
 
 .cardHeader svg  {
   font-size: 3em;
-  border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 20px;
+  /* border: solid 1px red; */
 }
 
-.companyLogo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
+.writingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .cardHeader h3 {
   font-size: 1.5rem;
-  margin: 0;
-  color: var(--primary-color);
+  margin-left: .5em;
+  color: var(--contrast);
+  /* border: solid 1px red; */
 }
