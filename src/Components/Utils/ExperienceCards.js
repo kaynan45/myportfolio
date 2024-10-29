@@ -50,8 +50,8 @@ function ExperienceCards({ selectedButton }) {
           </div>
           <img
             className={styles.companyImage}
-            src="https://picsum.photos/500/300"
-            alt="Placeholder"
+            src="/img/logo-selecty.png"
+            alt="Selecty-logo"
           />
         </div>
       ) : (
@@ -105,8 +105,8 @@ function ExperienceCards({ selectedButton }) {
           </div>
           <img
             className={styles.companyImage}
-            src="https://picsum.photos/500/300"
-            alt="Placeholder"
+            src="/img/aluguel_marina_da_gloria.jpg"
+            alt="Selecty-logo"
           />
         </div>
       )}
