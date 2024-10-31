@@ -1,4 +1,5 @@
-import styles from './Contact.module.css'
+import ContactForm from "../Utils/ContactForm";
+import styles from "./Contact.module.css";
 
 function Contact() {
   return (
@@ -8,8 +9,9 @@ function Contact() {
         <p className={styles.aboutTitle}>Contact</p>
         <hr className={styles.aboutDivider} aria-orientation="horizontal" />
       </div>
+      <ContactForm />
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
