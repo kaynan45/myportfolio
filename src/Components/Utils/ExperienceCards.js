@@ -48,11 +48,17 @@ function ExperienceCards({ selectedButton }) {
               </p>
             </div>
           </div>
-          <img
-            className={styles.companyImage}
-            src="/img/logo-selecty.png"
-            alt="Selecty-logo"
-          />
+          <a
+            href="https://selecty.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className={styles.companyImage}
+              src="/img/logo-selecty.png"
+              alt="Selecty-logo"
+            />
+          </a>
         </div>
       ) : (
         <div className={styles.experienceCard}>
@@ -103,11 +109,17 @@ function ExperienceCards({ selectedButton }) {
               </p>
             </div>
           </div>
-          <img
-            className={styles.companyImage}
-            src="/img/aluguel_marina_da_gloria.jpg"
-            alt="Selecty-logo"
-          />
+          <a
+            href="https://aluguelmarinadagloria.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className={styles.companyImage}
+              src="/img/aluguel_marina_da_gloria.jpg"
+              alt="Selecty-logo"
+            />
+          </a>
         </div>
       )}
     </div>

@@ -11,11 +11,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
 
-.experienceCard:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
-}
-
 .cardHeader {
   display: flex;
   flex-direction: column;
@@ -65,8 +60,17 @@
 }
 
 .companyImage {
+  width: 500px;
+  height: auto;
   margin-right: 1em;
   margin-top: 7em;
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.companyImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
