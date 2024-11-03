@@ -25,6 +25,7 @@ form {
 
 form .inputBox {
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .inputBox .field {
@@ -45,11 +46,20 @@ form .inputBox {
 }
 
 form button {
-  width: 95%;
+  width: 96%;
   height:45px;
   background: var(--detail);
   border: none;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   cursor: pointer;
+  font-size: 16px;
+  color: var(--dark-color);
+  font-weight: bold;
+  margin-top: 20px;
+  transition: ease .5s;
+}
+
+form button:hover {
+background: #c26803;;
 }
