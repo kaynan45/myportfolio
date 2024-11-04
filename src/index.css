@@ -12,10 +12,10 @@ body {
   --background-color: radial-gradient(circle, rgb(40, 0, 115) 0%, rgba(2,73,80,1) 100%);
   --primary-color: #024950;
   --dark-color: #003135;
-  --detail: #fd971f;
+  --detail: #d56701;
   --contrast: #0fa4af;
   --light-color: #afdde5;
-  --button-hover: #f5f5f517
+  --button-hover: #f5f5f517;
 }
 
 [data-theme="light"] {
@@ -25,6 +25,7 @@ body {
   --contrast: #26a69a;
   --light-color: #333333;
   --button-hover: #d2d2d275;
+  --card-detail:
 }
 
 code {

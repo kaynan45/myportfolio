@@ -3,12 +3,13 @@
   flex-direction: row;
   align-items: flex-start;
   border: 1px solid;
-  border-radius: 20px;
-  margin-top: 2em;
-  padding: 20px 15px;
   background-color: var(--light-color);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
 }
 
 .cardHeader {
@@ -19,7 +20,7 @@
   margin-right: 2em;
 }
 
-.experienceCard svg  {
+.experienceCard svg {
   font-size: 3em;
   margin-right: 20px;
   /* border: solid 1px red; */
@@ -32,31 +33,68 @@
   /* border: solid 1px red; */
   padding: 0;
   justify-content: left;
+  color: var(--dark-color);
 }
 
 .writingSection p {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.writingSection .separator {
+  color: var(--contrast);
 }
 
 .writingSection li {
+  list-style: none;
   text-align: left;
   margin-bottom: 3px;
 }
 
+.writingSection li span {
+color: var(--detail);
+font-weight: bolder;
+}
+
 .writingSection h4 {
-  margin-bottom: 1em;
+  font-size: 1.2em;
+  color: var(--detail);
+  margin-bottom: 10px;
 }
 
 .cardHeader h3 {
   font-size: 1.5rem;
-  margin-left: .5em;
+  margin-left: 0.5em;
   color: var(--contrast);
   /* border: solid 1px red; */
 }
 
+.SkillsTitle {
+  color: var(--detail);
+}
+
 .skillsArea {
   margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skillsArea strong {
+  font-size: 0.9em;
+  background-color: var(--button-hover);
+  color: var(--dark-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+a {
+  color: var(--detail);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .companyImage {
