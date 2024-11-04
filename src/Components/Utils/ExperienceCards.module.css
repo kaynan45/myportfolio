@@ -71,6 +71,7 @@ font-weight: bolder;
 
 .SkillsTitle {
   color: var(--detail);
+  font-size: larger;
 }
 
 .skillsArea {
