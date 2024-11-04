@@ -21,8 +21,8 @@ function ExperienceCards({ selectedButton }) {
               </p>
               <ul>
                 <li>
-                  Maintaining and updating of the company's web application and
-                  portal:{" "}
+                  <span>-</span> Maintaining and updating of the company's web
+                  application and portal:{" "}
                   <a
                     href="https://selecty.com.br/"
                     target="_blank"
@@ -32,27 +32,27 @@ function ExperienceCards({ selectedButton }) {
                   </a>
                 </li>
                 <li>
-                  Translating the entire website into English and Spanish.
+                  <span>-</span> Translating the entire website into English and
+                  Spanish.
                 </li>
                 <li>
-                  Developed comprehensive Cypress tests to ensure functionality,
-                  which improved product quality and reliability.
+                  <span>-</span> Developing comprehensive Cypress tests to ensure
+                  functionality, which improved product quality and reliability.
                 </li>
-                <li>Creating the FAQ questions page.</li>
+                <li>
+                  <span>-</span> Creating the FAQ questions page.
+                </li>
               </ul>
               <p className={styles.skillsArea}>
+                <p className={styles.SkillsTitle}>Skills:</p>
                 <strong>
-                  Skills: JavaScript (ES6+) · CSS & HTML · Cypress ·
-                  Multilingual Content Management · Problem-Solving
+                  JavaScript (ES6+) · CSS & HTML · Cypress · Multilingual
+                  Content Management · Problem-Solving
                 </strong>
               </p>
             </div>
           </div>
-          <a
-            href="https://selecty.com.br/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://selecty.com.br/" target="_blank" rel="noreferrer">
             <img
               className={styles.companyImage}
               src="/img/logo-selecty.png"
@@ -71,14 +71,13 @@ function ExperienceCards({ selectedButton }) {
               <h4>Front-End Developer</h4>
               <p>
                 <strong>Marina da Gloria®</strong> is a boat rental startup
-                based in Rio de Janeiro. As a Front-End Developer, I was
-                responsible for:
+                based in Rio de Janeiro. As a Front-End Developer, working there I:
               </p>
               <ul>
                 <li>
-                  Developed and continuously improved the company's website,
-                  integrating an E-Commerce platform and enhancing user
-                  experience:{" "}
+                  <span>-</span> Developed and continuously improved the
+                  company's website, integrating an E-Commerce platform and
+                  enhancing user experience:{" "}
                   <a
                     href="https://aluguelmarinadagloria.com.br/"
                     target="_blank"
@@ -87,24 +86,27 @@ function ExperienceCards({ selectedButton }) {
                     Website
                   </a>
                 </li>
-                <li> Implemented E-Commerce functionalities.</li>
                 <li>
-                  Responsible for building and maintaining the company's
-                  website.
+                  <span>-</span> Implemented E-Commerce functionalities.
                 </li>
                 <li>
-                  Integrated marketing strategies into the website to boost
-                  engagement and drive conversions.
+                  <span>-</span> Responsible for building and maintaining the
+                  company's website.
                 </li>
                 <li>
-                  Enhanced website performance to improve load times and user
-                  experience.
+                  <span>-</span> Integrated marketing strategies into the website
+                  to boost engagement and drive conversions.
+                </li>
+                <li>
+                  <span>-</span> Enhanced website performance to improve load
+                  times and user experience.
                 </li>
               </ul>
               <p className={styles.skillsArea}>
+                <p className={styles.SkillsTitle}>Skills:</p>
                 <strong>
-                  Skills: Site Build · E-Commerce · WordPress · WordPress
-                  Development · Marketing
+                  Site Build · E-Commerce · WordPress · WordPress Development ·
+                  Marketing
                 </strong>
               </p>
             </div>
