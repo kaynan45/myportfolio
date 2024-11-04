@@ -11,7 +11,7 @@ function ProjectCards({
     <div className={styles.projectCard}>
       <img src={projectImage} alt="projectImage"></img>
       <div className={styles.writingArea}>
-        <h1>{projectName}</h1>
+        <h1 className={styles.projectName}>{projectName}</h1>
         <p>{projectDescription}</p>
         <button className={styles.projectButton}>Project Link</button>
       </div>
