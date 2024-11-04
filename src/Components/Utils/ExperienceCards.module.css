@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: flex-start;
   border: 1px solid;
-  background-color: var(--light-color);
+  background-color: var(--experience-card-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 20px;
   margin: 10px;
@@ -33,16 +33,12 @@
   /* border: solid 1px red; */
   padding: 0;
   justify-content: left;
-  color: var(--dark-color);
+  color: var(--card-text-color);
 }
 
 .writingSection p {
   text-align: left;
   margin-bottom: 10px;
-}
-
-.writingSection .separator {
-  color: var(--contrast);
 }
 
 .writingSection li {
@@ -71,6 +67,7 @@ font-weight: bolder;
 
 .SkillsTitle {
   color: var(--detail);
+  font-size: larger;
 }
 
 .skillsArea {
@@ -82,8 +79,7 @@ font-weight: bolder;
 
 .skillsArea strong {
   font-size: 0.9em;
-  background-color: var(--button-hover);
-  color: var(--dark-color);
+  color: var(--card-text-color);
   padding: 5px 10px;
   border-radius: 5px;
 }

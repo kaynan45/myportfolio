@@ -16,16 +16,19 @@ body {
   --contrast: #0fa4af;
   --light-color: #afdde5;
   --button-hover: #f5f5f517;
+  --experience-card-color: #afdde5;
+  --card-text-color: #003135;
 }
 
 [data-theme="light"] {
   --primary-color: #f5f5f5;
   --dark-color: #e1e1e1;
-  --detail: #ff9f1a;
+  --detail: #d56701;
   --contrast: #26a69a;
   --light-color: #333333;
   --button-hover: #d2d2d275;
-  --card-detail:
+  --experience-card-color: #afdde500;
+  --card-text-color: #003135;
 }
 
 code {
