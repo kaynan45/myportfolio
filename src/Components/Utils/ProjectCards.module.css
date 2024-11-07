@@ -37,7 +37,7 @@
 }
 
 .projectButton {
-  margin: 1em;
+  margin-top: 1em;
   font-weight: bold;
   padding: 8px 15px;
   background-color: var(--detail);
