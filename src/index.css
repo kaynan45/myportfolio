@@ -9,6 +9,17 @@ body {
 }
 
 :root {
+  --primary-color: #f5f5f5;
+  --dark-color: #e1e1e1;
+  --detail: #d56701;
+  --contrast: #26a69a;
+  --light-color: #333333;
+  --button-hover: #d2d2d275;
+  --experience-card-color: #afdde500;
+  --card-text-color: #001a1d;
+}
+
+[data-theme="dark"] {
   --background-color: radial-gradient(circle, rgb(40, 0, 115) 0%, rgba(2,73,80,1) 100%);
   --primary-color: #024950;
   --dark-color: #003135;
@@ -18,17 +29,6 @@ body {
   --button-hover: #f5f5f517;
   --experience-card-color: #afdde5;
   --card-text-color: #003135;
-}
-
-[data-theme="light"] {
-  --primary-color: #f5f5f5;
-  --dark-color: #e1e1e1;
-  --detail: #d56701;
-  --contrast: #26a69a;
-  --light-color: #333333;
-  --button-hover: #d2d2d275;
-  --experience-card-color: #afdde500;
-  --card-text-color: #001a1d;
 }
 
 code {

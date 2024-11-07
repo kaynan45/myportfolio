@@ -3,15 +3,15 @@ import styles from "./ThemeButton.module.css";
 import { MdModeNight, MdLightMode } from "react-icons/md";
 
 function ThemeButton() {
-  const[theme, setTheme] = useState('dark')
+  const[theme, setTheme] = useState('light')
 
   function switchTheme() {
-    if (theme === "dark") {
-      document.body.setAttribute("data-theme", "light");
-      setTheme('light')
+    if (theme === "light") {
+      document.body.setAttribute("data-theme", "dark");
+      setTheme('dark')
     } else {
       document.body.removeAttribute("data-theme");
-      setTheme('dark')
+      setTheme('light')
     }
   }
 

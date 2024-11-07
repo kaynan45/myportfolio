@@ -13,7 +13,9 @@ function ProjectCards({
       <div className={styles.writingArea}>
         <h1 className={styles.projectName}>{projectName}</h1>
         <p>{projectDescription}</p>
-        <button className={styles.projectButton}>Project Link</button>
+        <a href={projectLink} target="blank" rel="noreferrer">
+          <button className={styles.projectButton}>Project Link</button>
+        </a>
       </div>
     </div>
   );
