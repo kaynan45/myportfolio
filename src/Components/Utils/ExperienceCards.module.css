@@ -84,12 +84,12 @@ font-weight: bolder;
   border-radius: 5px;
 }
 
-a {
+.websiteLinks {
   color: var(--detail);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
-a:hover {
+.websiteLinks:hover {
   text-decoration: underline;
 }
 

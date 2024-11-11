@@ -24,6 +24,7 @@ function ExperienceCards({ selectedButton }) {
                   <span>-</span> Maintaining and updating of the company's web
                   application and portal:{" "}
                   <a
+                    className={styles.websiteLinks}
                     href="https://selecty.com.br/"
                     target="_blank"
                     rel="noreferrer"
@@ -73,12 +74,13 @@ function ExperienceCards({ selectedButton }) {
                 <strong>Marina da Gloria®</strong> is a boat rental startup
                 based in Rio de Janeiro. As a Front-End Developer, working there I:
               </p>
-              <ul>
+              <ul  className="tasksDone">
                 <li>
                   <span>-</span> Developed and continuously improved the
                   company's website, integrating an E-Commerce platform and
                   enhancing user experience:{" "}
                   <a
+                    className={styles.websiteLinks}
                     href="https://aluguelmarinadagloria.com.br/"
                     target="_blank"
                     rel="noreferrer"
